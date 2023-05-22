@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?&family=Rubik+Maze&family=Rubik+Storm&family=Rubik+Wet+Paint');
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Rubik Storm', cursive;
+    color: navy;
+    font-size: 10vh;
+    z-index: 4;
+}
+
+.text2{
+     font-family: "Lucida Console", Courier, monospace;
+     font-style: oblique;
+     color: lime;
+}
+.text3{
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: 700;
+    color: lime;
+}.text4{
+  	font-family: "Lucida Console", Courier, monospace;
+    text-transform: uppercase;
+    color: lime;
+}
+.text5{
+   	font-family: "Lucida Console", Courier, monospace;
+    text-transform: lowercase;
+    color: lime;
+}
+.text6{
+     font-family: "Lucida Console", Courier, monospace;
+     text-transform: uppercase;
+     font-style: inherit;
+     color: gold;
+}
+.text7{
+    font-family: "Lucida Console", Courier, monospace;
+    color: gold;
+}
+.text8{
+    font-family: "Lucida Console", Courier, monospace;
+    font-style: revert;
+    color: navy;
+}
+h2{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-style: unset;
+    color: indigo;
+    text-align: center;
+    font-size: 6vh;
+}
+h3{
+    font-family: 'Rubik Maze', cursive;
+    font-style: italic;
+    color: gold;
+    font-size: 4vh;
+}
+*{
+	margin: 0;
+}
+header{
+	height: 500px;
+	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/5/6f/blue-background-sinii-uzory-paterns-fon-fon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bgvideo{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bgvideo video{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+nav{
+	background-image: url(https://st3.depositphotos.com/29384342/35189/v/450/depositphotos_351894382-stock-illustration-green-christmas-background-composition-of.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20%;
+	float: left;
+}
+main{
+	width: 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+footer{
+	height: 150px;
+	background-image: url(https://img.freepik.com/premium-photo/abstract-light-sea-green-background-textured-beautifull-wall-background_759200-534.jpg?w=360);
+	background-repeat: no-repeat;
+	background-size: cover;
+	clear: both;
+}
+Ul{
+	list-style: none;
+	font-size: 15pt;
+}
+li{
+	border: outset 20px blue;
+	width: 80%;
+	margin-bottom: 20px;
+	text-align: center;
+	height: 22px;
+}
+a{
+	text-decoration: none;
+}
+.art1{
+	text-align: justify;
+	height: 460px;
+	width: 90%;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zOh-BH6SzasiS39eeGbmrzSQfALYC_s1RM1rczJNVINNxGHrEhfV8UzQQpt8dZj816I&usqp=CAU);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: outset 4px lightseagreen;
+	margin: 10px;
+	font-size: 3vh;
+}
+.art2{
+	text-align: justify;
+	height: 780px;
+	width: 90%;
+	background-color: maroon;
+	border: outset 4px orange;
+	margin: 10px;
+	font-size: 3vh;
+}
+.art3{
+	text-align: justify;
+	height: 760px;
+	width: 90%;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zOh-BH6SzasiS39eeGbmrzSQfALYC_s1RM1rczJNVINNxGHrEhfV8UzQQpt8dZj816I&usqp=CAU);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: outset 4px lightseagreen;
+	margin: 10px;
+	font-size: 3vh;
+}
+.art4{
+	text-align: justify;
+	height: 880px;
+	width: 90%;
+	background-color: maroon;
+	border: outset 4px gold;
+	margin: 10px;
+	font-size: 3vh;
+}
+.art5{
+	text-align: justify;
+	height: 3000px;
+	width: 90%;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zOh-BH6SzasiS39eeGbmrzSQfALYC_s1RM1rczJNVINNxGHrEhfV8UzQQpt8dZj816I&usqp=CAU);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 4px blue;
+	margin: 10px;
+	font-size: 3vh;
+}
+.art6{
+	text-align: justify;
+	height: 1100px;
+	width: 90%;
+	background-color: maroon;
+	border: outset 4px lightseagreen;
+	margin: 10px;
+	font-size: 3vh;
+}
+.art7{
+	text-align: justify;
+	height: 400px;
+	width: 90%;
+	background-image: url(data:image/jpeg;base64,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);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: outset 4px deeppink;
+	margin: 10px;
+	font-size: 3vh;
+}
+.li1{
+	border: solid 7px aqua;
+	height: 250px;
+	color: gold;
+}
+.li2{
+	border: outset 7px aqua;
+	height: 250px;
+	color: gold;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+iframe{
+	margin: 15px;
+}
+img{
+	width: 1195px;
+	height: 853px;
+	
+}
+@media only screen and (max-width: 800px){
+	nav,main,footer{
+		width: 100%;
+	}
+}
